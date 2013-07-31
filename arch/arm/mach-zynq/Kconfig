@@ -16,5 +16,6 @@ config ARCH_ZYNQ
 	select ARM_GLOBAL_TIMER
 	select MFD_SYSCON
 	select GENERIC_ALLOCATOR
+	select SOC_BUS
 	help
 	  Support for Xilinx Zynq ARM Cortex A9 Platform
