@@ -66,6 +66,13 @@
 			cache-level = <2>;
 		};
 
+		ocmc: ocmc@f800c000 {
+			compatible = "xlnx,zynq-ocm-1.00.a";
+			interrupt-parent = <&intc>;
+			interrupts = <0 3 4>;
+			reg = <0xf800c000 0x1000>;
+		} ;
+
 		uart0: uart@e0000000 {
 			compatible = "xlnx,xuartps";
 			status = "disabled";
